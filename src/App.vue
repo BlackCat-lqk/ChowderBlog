@@ -37,6 +37,9 @@ import SideBar from './components/SideBar.vue'
   #contentMainBox {
     flex: 1;
     display: flex;
+    .contentBox {
+      flex: 1;
+    }
   }
 }
 </style>

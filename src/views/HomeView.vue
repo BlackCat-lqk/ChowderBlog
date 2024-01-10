@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <div>Home</div>
+  <div>
+    <el-empty description="description" />
+  </div>
 </template>
 
 <style lang="less" scoped>

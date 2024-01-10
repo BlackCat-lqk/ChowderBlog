@@ -1,5 +1,8 @@
 <template>
-  <div>Pinia</div>
+  <div>
+    <el-empty description="description" />
+    <span>{{ $t('title') }}</span>
+  </div>
 </template>
 
 <script lang="ts" setup>
