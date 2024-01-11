@@ -1,14 +1,14 @@
 <template>
   <div>
     <el-empty description="description" />
-    <span>{{ $t('title') }}</span>
+    <span>Pinia</span>
   </div>
 </template>
 
-<script lang="ts" setup>
-
-</script>
+<script lang="ts" setup></script>
 
 <style lang="less" scoped>
-
+span {
+  color: var(--text-color);
+}
 </style>
