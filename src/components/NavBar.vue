@@ -48,6 +48,9 @@ const themeChange = (val: boolean) => {
           :inactive-action-icon="Hide"
         />
       </div>
+      <div>
+        <RouterLink to="/login">登录</RouterLink>
+      </div>
     </div>
   </div>
 </template>
